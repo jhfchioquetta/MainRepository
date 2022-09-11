@@ -54,7 +54,7 @@
         </div>
     <p>Although Slipknot and Godsmack are relatively new to Metal Mainstream, members of <br/>
         both bands were raised listening to <a href="https://en.wikipedia.org/wiki/Bay_Area_thrash_metal">Bay Area Thrash Metal.</a><br/>
-    Similarly to Bay Area Thrash, they were highly influenced by <a href="https://en.wikipedia.org/wiki/New_wave_of_British_heavy_metal">
+    Similarly to Bay AreaThrash, they were highly influenced by <a href="https://en.wikipedia.org/wiki/New_wave_of_British_heavy_metal">
         <abbr title="New Wave of British Heavy Metal">NWOBHM</abbr></a>.</p>
     </section>
     <section>
@@ -74,7 +74,48 @@
     </ul>
     <blockquote cite="https://quotefancy.com/quote/1146604/Billy-Corgan-Heavy-metal-is-a-universal-energy-it-s-the-sound-of-a-volcano-It-s-rock-it-s">
         "Heavy metal is a universal energy – it's the sound of a volcano. <br/>It's rock, it's earth shattering. Somewhere in our primal being we understand."</blockquote>
-    - Billy Corgan</body>
+    - Billy Corgan
 </section>
+    <section>
+    <br><br>
+    <form > <!--Here I would type <form action="filename"> so inputs would be useful-->
+        <label for="UserFavBand">What's your favorite band? </label>
+        <input type="text" id="UserFavBand" name="UserFavBand" placeholder="Favorite Band">
+        <br><br>
+        <label for="Username">Enter username </label>
+        <input type="text" id="Username" name="Username" placeholder="Username">
+        <br><br>
+        <label for="UserEmail">Enter your email </label>
+        <input type="email" id="UserEmail" name="UserEmail" placeholder="Email">
+        <br><br>
+        <label for="UserPassword">Enter your password</label>
+        <input type="password" id="UserPassword" name="UserPassword" placeholder="Password">
+        <br><br>
+        <p>Select your age</p>
+        <input type="radio" name="UserAge" value="0-25" id="0-25"> <label for="0-25">0-25</label>
+        <input type="radio" name="UserAge" value="26-35" id="26-35"> <label for="26-35">26-35</label>
+        <input type="radio" name="UserAge" value="36-45" id="36-45"> <label for="36-45">36-45</label>
+        <input type="radio" name="UserAge" value="46-60" id="46-60"> <label for="46-60">46-60</label>
+        <input type="radio" name="UserAge" value="61+" id="61+"> <label for="61+">61+</label>
+        <br><br>
 
+        <label for="Quest1">Security question</label>
+        <select name="Quest1" id="Quest1">
+            <option value="Sec1">What's your favorite singer?</option>
+            <option value="Sec2">What's your favorite type of metal?</option>
+            <option value="Sec3">What's your favorite instrument?</option>
+        </select>
+        <br><br>
+        <label for="SecAnswer">Security answer</label>
+        <input type="text" id="SecAnswer" name="SecAnswer" placeholder="Your Answer">
+        <br><br>
+        <label for="Comment">Comments?</label><br>
+        <textarea name="Comment" id="Comment" cols="30" rows="10" placeholder="Share with us"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+
+        <br><br>
+    </form>
+    </section>
+</body>
 </html>
